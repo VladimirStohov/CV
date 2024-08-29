@@ -1,3 +1,67 @@
+.toggleDiv {
+  display: none;
+}
+.margin-bot {
+  margin-bottom: 60px;
+}
+.pointer-on-menu{
+cursor: pointer;
+}
+.div1 {
+    display: block;
+}
+
+
+.u-section-2 .u-image-1 .u-image-2 .u-image-3 .u-image-4 .u-image-5 .u-image-6 .u-image-7 .u-image-8 .u-image-9 .u-image-10 .u-image-11 .u-image-12,
+.u-section-3 .u-image-1 .u-image-2 .u-image-3 .u-image-4 .u-image-5 .u-image-6 .u-image-7 .u-image-8 .u-image-9{
+width: 100%;
+height: 100%;
+background-size: cover;
+background-position: center;
+cursor: pointer;
+display: inline-block; /* чтобы div элементы располагались в ряд */
+}
+
+/* Стили для модального окна */
+.modal {
+display: none;
+position: fixed;
+z-index: 1000;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+max-width: 90%; /* Ограничиваем максимальную ширину изображения */
+max-height: 90%; /* Ограничиваем максимальную высоту изображения */
+margin: auto; /* Горизонтальное выравнивание */
+display: block; /* Чтобы убрать возможное смещение */
+position: absolute; /* Абсолютное позиционирование */
+top: 50%; /* Горизонтальное центрирование */
+left: 50%; /* Вертикальное центрирование */
+transform: translate(-50%, -50%); /* Сдвигаем изображение, чтобы оно оказалось точно по центру */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Добавляем тень для эффекта */
+border-radius: 4px; /* Добавляем закругленные углы */
+}
+
+.close {
+position: absolute;
+top: 15px;
+right: 35px;
+color: #fff;
+font-size: 40px;
+font-weight: bold;
+cursor: pointer;
+}
+
+/* СГЕНЕРИРОВАННЫЙ КОД */
+/* СГЕНЕРИРОВАННЫЙ КОД */
+/* СГЕНЕРИРОВАННЫЙ КОД */
+
  .u-section-1 {
   background-image: url("images/photo_2024-08-16_18-07-30.jpg");
   background-position: 50% 50%;
@@ -308,6 +372,7 @@
 .u-section-2 .u-image-2 {
   background-image: url("images/12.jpg");
   background-position: 50% 50%;
+  cursor: pointer;
 }
 
 .u-section-2 .u-container-layout-2 {
