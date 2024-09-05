@@ -11,6 +11,13 @@ cursor: pointer;
     display: block;
 }
 
+.black{
+  color: black !important;
+}
+
+.height-block{
+  height: 150px !important;
+}
 
 .u-section-2 .u-image-1 .u-image-2 .u-image-3 .u-image-4 .u-image-5 .u-image-6 .u-image-7 .u-image-8 .u-image-9 .u-image-10 .u-image-11 .u-image-12,
 .u-section-3 .u-image-1 .u-image-2 .u-image-3 .u-image-4 .u-image-5 .u-image-6 .u-image-7 .u-image-8 .u-image-9{
@@ -63,7 +70,7 @@ cursor: pointer;
 /* СГЕНЕРИРОВАННЫЙ КОД */
 
  .u-section-1 {
-  background-image: url("images/photo_2024-08-16_18-07-30.jpg");
+  background-image: url("images/les.jpg");
   background-position: 50% 50%;
 }
 
